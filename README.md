@@ -29,6 +29,7 @@ product_name: String, doesn't allow null values
 price: Decimal, doesn't allow null values, validates decimal
 stock: Integer, doesn't allow null values, default value of 10, validates numeric
 category_id: Integer, references category model's id
+
 3. Tag:
 
 id: Integer, primary key, auto increment
